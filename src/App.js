@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Movie from './containers/Movie/Movie';
 import Navigation from '../src/components/Navigation/Navigation';
 

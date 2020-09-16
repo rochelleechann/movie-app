@@ -1,0 +1,33 @@
+.primary__card {
+    border: 1px solid #eee;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 24px 0;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
+        background-color: #e5e5e5;
+    }
+    &-info {
+        padding: 20px 20px 20px 0;
+    }
+    &-subtitle {
+        font-weight: bold;
+    }
+    &-img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// Does not follow BEM structure because of imported library used
+.read-more-button {
+    display: inline-block;
+    margin-left: 3px;
+    font-weight: bold;
+    color: #286DA8;
+    cursor: pointer;
+}
+
+.btn {
+    margin-bottom: 20px;
+}

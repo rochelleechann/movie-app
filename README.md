@@ -14,26 +14,25 @@ movie-app/
     index.html
     favicon.ico
   src/
-    App.css
     App.js
     App.test.js
-    index.css
+    index.scss
     index.js
     logo.svg
     components/
         MovieList/
-            MovieList.css
+            MovieList.scss
             MovieList.js
         Navigation/
             Navigation.js
-            Navigation.css
+            Navigation.scss
         WatchList/
             WatchList.js
-            WatchList.css
+            WatchList.scss
     container/
         Movie/
             Movie.js
-            Movie.css
+            Movie.scss
 
 ```
 

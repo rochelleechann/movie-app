@@ -5,7 +5,7 @@ import axios from 'axios';
 
 import MovieList from '../../components/MovieList/MovieList';
 import WatchList from '../../components/WatchList/WatchList';
-import './Movie.css';
+import './Movie.scss';
 
 class Movie extends Component {
     constructor(props) {
@@ -94,7 +94,7 @@ class Movie extends Component {
                         </div>
                         <div className="col-xs-12 col-md-8 offset-md-2">
                             <button className="btn btn-outline-info" onClick={this.getAdditionalMovies}>View More Movies</button>
-                            <p className="movie_results">Total Search Results Found: {this.state.movieList} / {this.state.total}</p>
+                            <p className="movie__results">Total Search Results Found: {this.state.movieList} / {this.state.total}</p>
                         </div>
                     </div>
                 }

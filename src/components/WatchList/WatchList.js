@@ -1,5 +1,5 @@
 import React from 'react';
-import './WatchList.css';
+import './WatchList.scss';
 
 const watchList = (props) => (
     <div className="watch__card-info" onClick={props.click}>
