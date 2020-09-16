@@ -10,6 +10,10 @@
     background-color: #e5e5e5;
 }
 
+.primary__card-success {
+    background-color: #83b489;
+}
+
 .primary__card-info {
     padding: 20px 20px 20px 0;
 }

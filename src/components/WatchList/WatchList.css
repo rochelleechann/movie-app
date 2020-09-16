@@ -1,7 +1,7 @@
 .watch__card {
     padding: 12px;
 }
-.watch_card-img {
+.watch__card-img {
     width: 150px;
     height: 100%;
     cursor: pointer;

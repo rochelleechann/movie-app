@@ -1,7 +1,41 @@
-## Need to properly add setup guide
+## Overview
+This project is a simple movie application that makes 1 request to MovieDB to retrieve a set of movie list. 
 
+## Folder Structure
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Current folder structure for this application:
+
+```
+movie-app/
+  README.md
+  node_modules/
+  package.json
+  public/
+    index.html
+    favicon.ico
+  src/
+    App.css
+    App.js
+    App.test.js
+    index.css
+    index.js
+    logo.svg
+    components/
+        MovieList/
+            MovieList.css
+            MovieList.js
+        Navigation/
+            Navigation.js
+            Navigation.css
+        WatchList/
+            WatchList.js
+            WatchList.css
+    container/
+        Movie/
+            Movie.js
+            Movie.css
+
+```
 
 ## Available Scripts
 
@@ -45,27 +79,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
