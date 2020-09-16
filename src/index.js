@@ -5,13 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 
-// Imports for Redux
-// import { Provider } from 'react-redux';
-// import reducer from './store/reducer';
-// import { createStore } from 'react';
-
-// const store = createStore(reducer);
-
 ReactDOM.render(
   <React.StrictMode>
     <App/>

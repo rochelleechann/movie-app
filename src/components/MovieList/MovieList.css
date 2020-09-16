@@ -30,3 +30,7 @@ img {
     color: #286DA8;
     cursor: pointer;
 }
+
+.btn {
+    margin-bottom: 20px;
+}

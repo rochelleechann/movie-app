@@ -1,3 +1,7 @@
 .movie_results{
     float: right;
 }
+
+.watched__primary {
+    display: flex;
+}
